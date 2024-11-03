@@ -1,4 +1,3 @@
-// app.component.ts
 import { Component } from '@angular/core';
 import { NgFor, NgIf, DatePipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -26,7 +25,7 @@ export class AppComponent {
       date: new Date(),
       description: 'This is the first article showcasing the new Angular icon.',
       score: 0,
-      photo: 'https://angular.io/assets/images/logos/angular/angular.svg' 
+      photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzTy8i0gpuU3GV5bbhdCk7olnWBavA0Db32Q&s' 
     },
   ];
   showForm = false;
